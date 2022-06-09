@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{11A95210-6F81-4805-830E-815E121626B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{DBB630DD-A6E7-4BA8-8FB6-8A5759B27FCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterGenerator", "src\AdapterGenerator\AdapterGenerator.csproj", "{56EDB286-708B-4D84-BD88-68689354A156}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterGenerator.Tests", "tests\AdapterGenerator.Tests\AdapterGenerator.Tests.csproj", "{B5F110F2-438B-47EC-8B6C-C78C330FCA24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{56EDB286-708B-4D84-BD88-68689354A156} = {11A95210-6F81-4805-830E-815E121626B6}
+		{B5F110F2-438B-47EC-8B6C-C78C330FCA24} = {DBB630DD-A6E7-4BA8-8FB6-8A5759B27FCE}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56EDB286-708B-4D84-BD88-68689354A156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56EDB286-708B-4D84-BD88-68689354A156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56EDB286-708B-4D84-BD88-68689354A156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56EDB286-708B-4D84-BD88-68689354A156}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5F110F2-438B-47EC-8B6C-C78C330FCA24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5F110F2-438B-47EC-8B6C-C78C330FCA24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5F110F2-438B-47EC-8B6C-C78C330FCA24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5F110F2-438B-47EC-8B6C-C78C330FCA24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
